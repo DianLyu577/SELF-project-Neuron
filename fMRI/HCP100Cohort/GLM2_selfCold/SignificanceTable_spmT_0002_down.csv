@@ -1,0 +1,6 @@
+set p,set c,Cluster p(FWE-corr),Cluster p(FDR-corr),Cluster size (equivk),Cluster p(unc),Peak (FWE-corr),Peak (FDR-corr),Peak F,Peak equivZ,Peak p(unc),x (mm),y (mm),z (mm),Juelich Histological Atlas,Harvard-Oxford Cortical Structural Atlas
+0,2,0,0,11,0,0,0,8.22,6.99,0,20,-40,22,19.0% WM Callosal body,NaN
+NaN,NaN,NaN,NaN,NaN,NaN,0.002,0.17,6.26,5.64,0,24,-46,18,64.0% WM Callosal body,NaN
+NaN,NaN,0,0,32,0,0,0.002,7.68,6.64,0,-28,-54,12,10.0% WM Callosal body,3.0% Precuneous Cortex
+NaN,NaN,NaN,NaN,NaN,NaN,0,0.007,7.28,6.37,0,-32,-58,6,39.0% WM Callosal body 9.0% WM Optic radiation L,3.0% Precuneous Cortex 1.0% Lingual Gyrus
+NaN,NaN,NaN,NaN,NaN,NaN,0,0.007,7.25,6.35,0,-22,-46,20,22.0% WM Callosal body,NaN
