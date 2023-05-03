@@ -16,13 +16,12 @@ comp_root = '/Volumes/G-DRIVE-Dian/DIAN';
 result_folder = fullfile(home_dir, 'Dropbox/Stanford_Matters/data/SELF/CCEP/results/explore5_2');
 prelim_plot_folder = fullfile(home_dir, 'Dropbox/Stanford_Matters/data/SELF/CCEP/results/prelim_plots/explore5_2');
 
-sublist = {'S22_178_AF', 'S21_172_KS','S21_166_TM', 'S20_152_HT', 'S21_167_MQ', 'S21_169_BH', 'S21_171_MM',...
-    'S19_137_AF', 'S21_165_WN', 'S22_176_LB', 'S22_177_JM', 'S22_182_DH', 'S22_183_CR'};%, , 'S22_181_CB'};
+sublist = {};
 %% show only partial areas - significant
 jp_include = {'antTH', 'BG', 'CLT', 'INS', 'LFC','pstTH','IPL','HPC', ...
     'PMC','SM','SPL', 'OFC', 'ACC', 'MFC','MCC', 'ITL'};
 %%
-self_cohort = {'S22_178_AF', 'S21_166_TM', 'S20_152_HT', 'S19_137_AF', 'S21_165_WN', 'S22_176_LB', 'S22_177_JM', 'S22_182_DH', 'S22_183_CR'};
+self_cohort = {''};
 
 %%
 time = -199:600;
