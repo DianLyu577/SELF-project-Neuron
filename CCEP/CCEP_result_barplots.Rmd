@@ -96,9 +96,8 @@ d <- d %>% filter((!JP_label_in %in% c("","empty","NAN","EXCLUDE", 'NA')) &
     !is.na(JP_label_in) & !is.na(JP_label_out)
   )
 
-self_hot_cohort <- c('S22_178_AF', 'S21_166_TM', 'S20_152_HT', 'S21_165_WN', 'S22_176_LB', 'S22_177_JM', 'S22_182_DH', 'S22_183_CR', 'S19_137_AF')
-  #'S12_38_LK', 'S15_84_KG', 'S18_125_LU', 'S19_137_AF', 'S20_152_HT',
- #                    'S21_165_WN', 'S21_166_TM', 'S22_176_LB', 'S22_178_AF', 'S22_177_JM', 'S22_182_DH', 'S22_183_CR')
+self_hot_cohort <- c()
+
 self_hot_cohort_anonymous <-c('S01_178', 'S02_166', 'S03_152', 'S04_165', 'S05_176', 'S06_177', 'S07_182', 'S08_183', 'S09_137')
 
 d$subject_anym <- d$subject
