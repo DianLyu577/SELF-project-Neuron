@@ -16,6 +16,7 @@ MI_HCP_stanfordCohort_Comparison.m is the code for formally comparing the seed-b
 
 Links to other publicly accessible locations of the data:
   * https://github.com/DianLyu577/SELF-project-Neuron/tree/main
+  * https://doi.org/10.5061/dryad.w6m905qv0
 
 
 
