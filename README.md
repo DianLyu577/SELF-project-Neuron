@@ -10,6 +10,7 @@ The two nifti files are group-based ROIs from the study. With brain stimulation,
 
 Among the *.m files, the fMRINetMapNative.m is the customized class function for doing all the fMRI-related processings, including preprocessing and seed-based FC at the native space as reported in the paper. The usage of this class can be found in the FCconndiff_selfvscold_example.m, which is the code that is used to conduct the seed-based FC of hot/cold stimulation sites and the contrast between them at the individual level. The group-level comparison (including normalizing the first-level stats images) is presented in the Elec_ContrElec_glm2.m. The results of this analysis was reported in the Figure 2 of the paper. 
 
+MI_HCP_stanfordCohort_Comparison.m is the code for formally comparing the seed-based FC between the HCP cohort and our cohort. This part of result is presented in the supplementary figure S5.
 
 ## Sharing/Access information
 
